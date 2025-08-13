@@ -1,0 +1,5 @@
+<h1>Modal loaded at <%= Time.zone.now %></h1>
+
+<%= form_with url: post_path(1), method: "patch" do |f| %>
+  <%= f.submit "Patch" %>
+<% end %>
